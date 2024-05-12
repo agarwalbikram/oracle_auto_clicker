@@ -5,7 +5,7 @@ win1 = window.open("https://cloud.oracle.com/");
 timer1 = setInterval(() => {
     win1.location.reload();
     console.log("Refreshed");
-    var v = document.querySelector(".oui-button-primary");
+    var v = document.querySelector(".oui-savant__Panel--Footer .oui-button-primary");
     if (v && v.textContent == "Create") {
         v.click();
         console.log("!!! clicked");
